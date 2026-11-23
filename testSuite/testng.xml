@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="ecommerceWebSite.TestComponents.Listeners"></listener>
+	</listeners>
+	
+	<test thread-count="5" name="SubmitOrder">
+		<classes>
+			<class name="ecommerceWebSite.tests.SubmitOrder" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="ErrorValidation">
+	<classes>
+			<class name="ecommerceWebSite.tests.ErrorValidation" />
+		</classes>
+	</test>
+
+</suite>
