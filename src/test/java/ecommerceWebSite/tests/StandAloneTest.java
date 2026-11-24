@@ -66,6 +66,8 @@ public class StandAloneTest {
 		Assert.assertTrue(cnfmMsg.equalsIgnoreCase("Thankyou for the order."));
 		
 		driver.quit();
+		
+		//Updated conditions check for GIT
 
 	}
 }
